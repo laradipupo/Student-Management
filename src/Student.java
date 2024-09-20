@@ -33,8 +33,8 @@ public class Student extends Person implements Report{
 
     @Override
     public void displayStudentDetails() {
-//        System.out.println("Student Name: " + getName());
-//        System.out.println("Age: " + getAge());
+        System.out.println("Student Name: " + getName());
+        System.out.println("Age: " + getAge());
         System.out.println("Student ID: " + getStudentId());
         System.out.println("Grade: " + getGrade());
     }
